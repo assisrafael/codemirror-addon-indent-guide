@@ -1,0 +1,46 @@
+{
+  "name": "codemirror-addon-indent-guide",
+  "version": "0.0.1",
+  "description": "Codemirror addon to include indent guidelines",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "rollup --config",
+    "release": "standard-version",
+    "prepublishOnly": "npm run build",
+    "eslint": "eslint src/**/*.js",
+    "prettier": "prettier src/**/*.js",
+    "ci": "npm run prettier -- --list-different && npm run eslint",
+    "lint": "npm run eslint -- --fix",
+    "format": "npm run prettier -- --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/assisrafael/codemirror-addon-indent-guide.git"
+  },
+  "keywords": [
+    "codemirror",
+    "indent",
+    "guides"
+  ],
+  "author": "Igor Rafael <igor.rafael@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/assisrafael/codemirror-addon-indent-guide/issues"
+  },
+  "homepage": "https://github.com/assisrafael/codemirror-addon-indent-guide#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "babel-loader": "^8.1.0",
+    "codemirror": "^5.57.0",
+    "eslint": "^7.4.0",
+    "prettier": "^2.0.5",
+    "rollup": "^2.21.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "standard-version": "^8.0.2"
+  },
+  "peerDependencies": {
+    "codemirror": "^5.57.0"
+  }
+}

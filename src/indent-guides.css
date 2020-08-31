@@ -1,0 +1,4 @@
+.cm-indent-guides {
+  position: relative;
+  border-left: 1px dotted #bbb;
+}
