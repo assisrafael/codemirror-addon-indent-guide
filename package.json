@@ -2,7 +2,7 @@
   "name": "codemirror-addon-indent-guide",
   "version": "1.0.0",
   "description": "Codemirror addon to include indent guidelines",
-  "main": "dist/main.js",
+  "main": "dist/indent-guide.js",
   "scripts": {
     "build": "rollup --config",
     "release": "standard-version",

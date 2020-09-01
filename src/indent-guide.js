@@ -2,7 +2,7 @@ import CodeMirror from 'codemirror';
 
 CodeMirror.defineOption('indentGuide', false, indentGuideAddon);
 
-const GUIDE_CLASS = 'indent-guides';
+const GUIDE_CLASS = 'indent-guide';
 
 /**
  * Heavily inspired by https://github.com/lkcampbell/brackets-indent-guides
