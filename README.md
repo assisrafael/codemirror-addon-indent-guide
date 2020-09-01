@@ -1,4 +1,6 @@
-# codemirror-addon-indent-guide
+# codemirror-addon-indent-guide ![Lint](https://github.com/assisrafael/codemirror-addon-indent-guide/workflows/Lint/badge.svg?branch=master) 
+
+[![NPM](https://nodei.co/npm/codemirror-addon-indent-guide.png)](https://nodei.co/npm/codemirror-addon-indent-guide/)
 
 Codemirror addon to include indentation guidelines.
 
